@@ -19,6 +19,7 @@ body{
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
+    user-select: none;
 }
 .semi-bold{
     font-weight: 500;
@@ -58,7 +59,9 @@ body{
 .resume .resume_left .bold{
     color: #fff;
 }
-
+.resume .resume_left .bold:active {
+    color: rgb(7, 249, 112);
+}
 .resume .resume_left .regular{
     color: #b1eaff;
 }
@@ -125,7 +128,9 @@ body{
 .resume .resume_right .bold{
     color: #015a7b;
 }
-
+.resume .resume_right .bold:active {
+    color: rgb(7, 249, 112);
+}
 .resume .resume_right .resume_work ul,
 .resume .resume_right .resume_education ul{
     padding-left: 40px;
