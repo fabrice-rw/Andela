@@ -8,8 +8,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    display: flex;
-    flex: auto;
+    display: block;
+    /* flex: auto; */
     background: #585c68;
     font-size: 14px;
     line-height: 22px;
